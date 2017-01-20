@@ -10,11 +10,11 @@
   - [ ] PATCH with parameters
   - [ ] DELETE with parameters
 - [ ] Javascript
-  - [ ] simple GET
-  - [ ] simple POST
-  - [ ] simple PUT
-  - [ ] simple PATCH
-  - [ ] simple DELETE
+  - [x] simple GET
+  - [x] simple POST
+  - [x] simple PUT
+  - [x] simple PATCH
+  - [x] simple DELETE
   - [ ] GET with parameters
   - [ ] POST with parameters
   - [ ] PUT with parameters
