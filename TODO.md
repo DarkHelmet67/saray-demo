@@ -1,0 +1,28 @@
+- [ ] JSON
+  - [ ] simple GET
+  - [ ] simple POST
+  - [ ] simple PUT
+  - [ ] simple PATCH
+  - [ ] simple DELETE
+  - [ ] GET with parameters
+  - [ ] POST with parameters
+  - [ ] PUT with parameters
+  - [ ] PATCH with parameters
+  - [ ] DELETE with parameters
+- [ ] Javascript
+  - [ ] simple GET
+  - [ ] simple POST
+  - [ ] simple PUT
+  - [ ] simple PATCH
+  - [ ] simple DELETE
+  - [ ] GET with parameters
+  - [ ] POST with parameters
+  - [ ] PUT with parameters
+  - [ ] PATCH with parameters
+  - [ ] DELETE with parameters
+  - [ ] GET with HTTP error codes
+  - [ ] POST with HTTP error codes
+  - [ ] PUT with HTTP error codes
+  - [ ] PATCH with HTTP error codes
+  - [ ] DELETE with HTTP error codes
+- Find API for proxy example
