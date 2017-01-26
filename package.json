@@ -1,0 +1,13 @@
+{
+  "name": "saray-demo",
+  "version": "1.0.0",
+  "description": "Sample data and application for Saray API stubber.",
+  "main": "index.js",
+  "repository": "https://github.com/contactlab/saray-demo",
+  "author": "Salvatore Laisa <moebiusmania@gmail.com>",
+  "license": "Apache.2-0",
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "saray": "^1.5.3"
+  }
+}

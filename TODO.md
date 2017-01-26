@@ -26,3 +26,4 @@
   - [ ] PATCH with HTTP error codes
   - [ ] DELETE with HTTP error codes
 - Find API for proxy example
+  - suggestion: [http://jsonplaceholder.typicode.com/posts](http://jsonplaceholder.typicode.com/posts)
