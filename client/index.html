@@ -29,8 +29,8 @@
     <h1>Saray demo application</h1>
 
     <select id="source" onchange="switchData(event)">
-      <option value="http://jsonplaceholder.typicode.com">JSON Placeholder</option>
-      <option value="http://localhost:3001">Saray stub</option>
+      <option value="real">JSON Placeholder</option>
+      <option value="stubbed">Saray stub</option>
     </select>
 
     <select id="userId">
@@ -47,6 +47,7 @@
     <small></small>
     <pre></pre>
   </main>
+
 <script>
 const $ = (string) => { return document.querySelector(string) };
 const route = '/users';
@@ -58,9 +59,12 @@ const switchData = (evt) => {
 }
 
 const buildUrl = () => {
-  const source = $('#source').value;
-  const userId = $('#userId').selectedIndex;
-  return source + route + '/' + (userId + 1);
+  const source = $('#source').value === 'real'
+    ? 'jsonplaceholder.typicode.com' : `${window.location.hostname}:3001`;
+  const userId = $('#userId').selectedIndex + 1;
+  const protocol = window.location.protocol;
+  const url = `${protocol}//${source}${route}/${userId}`;
+  return url;
 }
 
 const getData = () => {
