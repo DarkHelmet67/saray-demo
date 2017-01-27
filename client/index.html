@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Just a test</title>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/contactlab/contactlab-ui-components/0ad67a78/_assets/css/contactlab-pattern.min.css">
+  <style>
+
+    hr{
+      margin: 20px 0;
+    }
+
+    pre{
+      margin-top: 10px;
+      background-color: white;
+      border: 1px solid rgba(0,0,0,0.4);
+      padding: 15px;
+    }
+
+    select{
+      height: 37px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <main>
+    <h1>Saray demo application</h1>
+
+    <select id="source" onchange="switchData(event)">
+      <option value="http://jsonplaceholder.typicode.com">JSON Placeholder</option>
+      <option value="http://localhost:3001">Saray stub</option>
+    </select>
+
+    <select id="userId">
+      <option value="/1">/1</option>
+      <option value="/2">/2</option>
+    </select>
+
+    <button onclick="getData()" class="btn">
+      Get Data!
+    </button>
+
+    <hr>
+
+    <small></small>
+    <pre></pre>
+  </main>
+<script>
+const $ = (string) => { return document.querySelector(string) };
+const route = '/users';
+let stubbed = 0;
+
+const switchData = (evt) => {
+  const i = evt.currentTarget.selectedIndex;
+  console.log(i);
+}
+
+const buildUrl = () => {
+  const source = $('#source').value;
+  const userId = $('#userId').selectedIndex;
+  return source + route + '/' + (userId + 1);
+}
+
+const getData = () => {
+  const url = buildUrl();
+  console.log(url);
+  fetch(url)
+    .then((r) => {
+      return r.json()
+    })
+    .then((data) => {
+      console.log(data);
+      $('pre').innerHTML = JSON.stringify(data, null, 2);
+      $('small').innerHTML = url;
+    });
+}
+
+
+</script>
+
+</body>
+</html>

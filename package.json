@@ -4,10 +4,14 @@
   "description": "Sample data and application for Saray API stubber.",
   "main": "index.js",
   "repository": "https://github.com/contactlab/saray-demo",
-  "author": "Salvatore Laisa <moebiusmania@gmail.com>",
-  "license": "Apache.2-0",
+  "author": "Contactlab Product Team <developer@contactlab.com >",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "npm run static & npm run saray",
+    "saray": "saray --port 3001 --path ./client --endpoint 'http://jsonplaceholder.typicode.com'",
+    "static": "http-server ./client -s -p 3000"
+  },
   "dependencies": {
-    "http-server": "^0.9.0",
     "saray": "^1.5.3"
   }
 }
