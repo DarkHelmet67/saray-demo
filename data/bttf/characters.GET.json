@@ -1,0 +1,57 @@
+{
+  "characters": [
+    {
+      "name": "Marty",
+      "surname": "McFly",
+      "gender": "M"
+    }, {
+      "name": "Emmet",
+      "surname": "Brown",
+      "gender": "M"
+    }, {
+      "name": "Lorraine",
+      "surname": "Baines",
+      "gender": "F"
+    }, {
+      "name": "George",
+      "surname": "McFly",
+      "gender": "M"
+    }, {
+      "name": "Biff",
+      "surname": "Tannen",
+      "gender": "M"
+    }, {
+      "name": "Jennifer",
+      "surname": "Parker",
+      "gender": "F"
+    }, {
+      "name": "Dave",
+      "surname": "McFly",
+      "gender": "M"
+    }, {
+      "name": "Linda",
+      "surname": "McFly",
+      "gender": "F"
+    }, {
+      "name": "Sam",
+      "surname": "Baines",
+      "gender": "M"
+    }, {
+      "name": "Stella",
+      "surname": "Baines",
+      "gender": "F"
+    }, {
+      "name": "Gerald",
+      "surname": "Strickland",
+      "gender": "M"
+    }, {
+      "name": "Marvin",
+      "surname": "Berry",
+      "gender": "M"
+    }, {
+      "name": "Goldie",
+      "surname": "Wilson",
+      "gender": "M"
+    }
+  ]
+}
