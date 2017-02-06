@@ -445,9 +445,9 @@ safe-json-stringify@~1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/safe-json-stringify/-/safe-json-stringify-1.0.3.tgz#3cb6717660a086d07cb5bd9b7a6875bcf67bd05e"
 
-saray@^1.5.3:
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/saray/-/saray-1.5.3.tgz#27ef1fa9258f66491258df4c5b97908a4e23ae92"
+saray@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/saray/-/saray-1.6.0.tgz#e2e52dbee8b3a8ea0b1582288c4638acdf45d644"
   dependencies:
     body-parser "^1.15.2"
     bunyan "^1.8.5"
