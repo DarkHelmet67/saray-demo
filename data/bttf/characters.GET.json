@@ -1,54 +1,79 @@
 {
   "characters": [
     {
+      "id": 0,
       "name": "Marty",
       "surname": "McFly",
       "gender": "M"
-    }, {
+    },
+    {
+      "id": 1,
       "name": "Emmet",
       "surname": "Brown",
       "gender": "M"
-    }, {
+    },
+    {
+      "id": 2,
       "name": "Lorraine",
       "surname": "Baines",
       "gender": "F"
-    }, {
+    },
+    {
+      "id": 3,
       "name": "George",
       "surname": "McFly",
       "gender": "M"
-    }, {
+    },
+    {
+      "id": 4,
       "name": "Biff",
       "surname": "Tannen",
       "gender": "M"
-    }, {
+    },
+    {
+      "id": 5,
       "name": "Jennifer",
       "surname": "Parker",
       "gender": "F"
-    }, {
+    },
+    {
+      "id": 6,
       "name": "Dave",
       "surname": "McFly",
       "gender": "M"
-    }, {
+    },
+    {
+      "id": 7,
       "name": "Linda",
       "surname": "McFly",
       "gender": "F"
-    }, {
+    },
+    {
+      "id": 8,
       "name": "Sam",
       "surname": "Baines",
       "gender": "M"
-    }, {
+    },
+    {
+      "id": 9,
       "name": "Stella",
       "surname": "Baines",
       "gender": "F"
-    }, {
+    },
+    {
+      "id": 10,
       "name": "Gerald",
       "surname": "Strickland",
       "gender": "M"
-    }, {
+    },
+    {
+      "id": 11,
       "name": "Marvin",
       "surname": "Berry",
       "gender": "M"
-    }, {
+    },
+    {
+      "id": 12,
       "name": "Goldie",
       "surname": "Wilson",
       "gender": "M"
