@@ -1,7 +1,7 @@
 {
 	"variables": [],
 	"info": {
-		"name": "Saray examples",
+		"name": "Saray demo",
 		"_postman_id": "6d0b2de7-3152-65b2-da89-24e92235dadc",
 		"description": "",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
@@ -144,6 +144,56 @@
 			"request": {
 				"url": "http://localhost:3002/bttf/characters?gender=F",
 				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "BTTF add character",
+			"request": {
+				"url": "http://localhost:3002/bttf/characters",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Paolo",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "surname",
+							"value": "Ferretti",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "gender",
+							"value": "M",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "BTTF delete character",
+			"request": {
+				"url": "http://localhost:3002/bttf/characters?id=13",
+				"method": "DELETE",
 				"header": [],
 				"body": {},
 				"description": ""
