@@ -1,0 +1,154 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Saray examples",
+		"_postman_id": "6d0b2de7-3152-65b2-da89-24e92235dadc",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "simple",
+			"request": {
+				"url": "http://localhost:3002/simple",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "simple",
+			"request": {
+				"url": "http://localhost:3002/simple",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "simple",
+			"request": {
+				"url": "http://localhost:3002/simple",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "simple",
+			"request": {
+				"url": "http://localhost:3002/simple",
+				"method": "PATCH",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "simple",
+			"request": {
+				"url": "http://localhost:3002/simple",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "simpleJS",
+			"request": {
+				"url": "http://localhost:3002/simpleJS",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "simpleJS",
+			"request": {
+				"url": "http://localhost:3002/simpleJS",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "simpleJS",
+			"request": {
+				"url": "http://localhost:3002/simpleJS",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "simpleJS",
+			"request": {
+				"url": "http://localhost:3002/simpleJS",
+				"method": "PATCH",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "simpleJS",
+			"request": {
+				"url": "http://localhost:3002/simpleJS",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "BTTF all characters",
+			"request": {
+				"url": "http://localhost:3002/bttf/characters",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "BTTF male characters",
+			"request": {
+				"url": "http://localhost:3002/bttf/characters?gender=M",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "BTTF female characters",
+			"request": {
+				"url": "http://localhost:3002/bttf/characters?gender=F",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
