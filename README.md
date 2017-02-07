@@ -1,4 +1,4 @@
-![Saray logo](./Saray.svg)
+![./saray.svg](./saray.svg)
 
 # Demo & examples
 
