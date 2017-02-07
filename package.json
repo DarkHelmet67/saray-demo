@@ -12,6 +12,7 @@
     "static": "http-server ./client -s -p 3000"
   },
   "dependencies": {
+    "bunyan": "^1.8.5",
     "http-server": "^0.9.0",
     "saray": "^1.6.0"
   }
