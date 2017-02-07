@@ -1,4 +1,4 @@
-![](https://github.com/contactlab/saray-demo/blob/master/Saray.svg)
+![](saray.png)
 
 # Demo & examples
 
