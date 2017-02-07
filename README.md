@@ -1,4 +1,6 @@
-# Saray Examples
+![Saray logo](./Saray.svg)
+
+# Demo & examples
 
 Sample data and application for Saray API stubber.
 
