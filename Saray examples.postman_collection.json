@@ -199,6 +199,28 @@
 				"description": ""
 			},
 			"response": []
+		},
+		{
+			"name": "JSON placeholder todo/1",
+			"request": {
+				"url": "http://localhost:3002/todos/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "JSON placeholder todos",
+			"request": {
+				"url": "http://localhost:3002/todos",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
 		}
 	]
 }
