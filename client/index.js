@@ -2,7 +2,8 @@
 
 const $ = (string) => { return document.querySelector(string) };
 const route = '/users';
-let stubbed = 0;
+let source = ''; 
+let userId = 0; 
 
 const switchData = (evt) => {
   const i = evt.currentTarget.selectedIndex;
@@ -10,9 +11,20 @@ const switchData = (evt) => {
 }
 
 const buildUrl = () => {
-  const source = $('#source').value === 'real'
-    ? 'jsonplaceholder.typicode.com' : `${window.location.hostname}:3001`;
-  const userId = $('#userId').selectedIndex + 1;
+  userId = $('#userId').selectedIndex + 1; 
+  switch($('#source').value) { 
+    case 'real': 
+      source = 'jsonplaceholder.typicode.com'; 
+      break; 
+    case 'proxy': 
+      source = `${window.location.hostname}:3001`; 
+      userId = `proxy?user=${userId}`; 
+      break; 
+    default: 
+      // 'stubbed' 
+      source = `${window.location.hostname}:3001`; 
+      break; 
+  } 
   const protocol = window.location.protocol;
   const url = `${protocol}//${source}${route}/${userId}`;
   return url;
